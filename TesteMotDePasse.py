@@ -68,7 +68,5 @@ def message_final(siecles):
         print("Ton mot de passe est assez bien mais je te conseille de l'ameliorer:)")
     else: 
         print("Ton mot de passe n'est pas du tout securise, change le tout de suite pour ta securite")
-        
-              
               
     
