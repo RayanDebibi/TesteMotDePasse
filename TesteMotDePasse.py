@@ -44,4 +44,18 @@ def calcul_1_etape(mot_de_passe):
 def calcul_longueur(mot_de_passe):
     longueur_mot_de_passe = len(mot_de_passe)
     return longueur_mot_de_passe
-    
+def calcul_nombre_possibilites_requises(etape_1, longueur_mot_de_passe):
+    nbr_possibilites = etape_1 ** longueur_mot_de_passe
+    return nbr_possibilites
+def calcul_temps_requis(nbr_possibilites,vitesse_hackeur):
+    secondes = nbr_possibilites / vitesse_hackeur
+    return secondes
+def convertis_temps(secondes):
+    minutes = secondes / 60
+    heures = minutes / 60
+    jours = heures / 24
+    semaines = jours / 7
+    mois = semaines / 4
+    annees = mois / 12
+    siecles = annees / 100
+    return minutes, heures, jours, semaines, mois, annees, siecledef message_temps(secondes,minutes,heures,jours,semaines,mois,annees,sieclin(f'Ton mot de passe prend {secondes} secondes ou {minutes} minutes ou {heures} heures ou {jours} jours ou {semaines} semaines ou {mois} mois ou {annees} annees ou {siecles} siecles a etre hacke par force brute')
