@@ -58,6 +58,17 @@ def convertis_temps(secondes):
     mois = semaines / 4
     annees = mois / 12
     siecles = annees / 100
-    return minutes, heures, jours, semaines, mois, annees, siecle
-def message_temps(secondes,minutes,heures,jours,semaines,mois,annees,siecle,vitesse_hackeur)
+    return minutes, heures, jours, semaines, mois, annees, siecles
+def message_temps(secondes,minutes,heures,jours,semaines,mois,annees,siecles,vitesse_hackeur):
     print(f'Ton mot de passe prend {secondes} secondes ou {minutes} minutes ou {heures} heures ou {jours} jours ou {semaines} semaines ou {mois} mois ou {annees} annees ou {siecles} siecles a etre hacke par force brute a une vitesse de {vitesse_hackeur} essais par secondes')
+def message_final(siecles):
+    if siecles > 10:
+        print("Ton mot de passe est parfait:)")
+    elif siecles > 1.5:
+        print("Ton mot de passe est assez bien mais je te conseille de l'ameliorer:)")
+    else: 
+        print("Ton mot de passe n'est pas du tout securise, change le tout de suite pour ta securite")
+        
+              
+              
+    
