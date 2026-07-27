@@ -5,23 +5,18 @@ lettres_majuscules = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L"
 chiffres = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
 symboles = ["!", "\"", "#", "$", "%", "&", "'", "(", ")", "*", "+", ",", "-", ".", "/", ":", ";", "<", "=", ">", "?", "@", "[", "\\", "]", "^", "_", "`", "{", "|", "}", "~"]
 mot_de_passe_simples = ["123456", "123456789", "000000", "12345678", "111111", "azerty", "azertyuiop", "qsdfgh", "azerty123", "motdepasse", "password", "admin", "soleil", "marseille", "chouchou", "doudou", "loulou", "bonjour", "secret"]
-
-
 def dire_quel_mot_de_passe():
     print("Rentre un mot de passe pour le tester")
     mot_de_passe = str(input())
     return mot_de_passe
-
 def si_mot_de_passe_existe(mot_de_passe):
     if len(mot_de_passe) == 0:
         print("Verifie ton mot de passe stp")
-
 def si_mot_de_passe_simple(mot_de_passe):
     for mot_de_passe_simple in mot_de_passe_simples:
         if mot_de_passe_simple == mot_de_passe:
             print("Ta securite est a risque, change tout de suite ton mot de passe")
             exit()
-
 def calcul_1_etape(mot_de_passe):
     etape_1 = 0
     for lettre_miniscule in lettre_miniscules:
