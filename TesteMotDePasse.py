@@ -59,5 +59,5 @@ def convertis_temps(secondes):
     annees = mois / 12
     siecles = annees / 100
     return minutes, heures, jours, semaines, mois, annees, siecle
-def message_temps(secondes,minutes,heures,jours,semaines,mois,annees,siecle)
-    print(f'Ton mot de passe prend {secondes} secondes ou {minutes} minutes ou {heures} heures ou {jours} jours ou {semaines} semaines ou {mois} mois ou {annees} annees ou {siecles} siecles a etre hacke par force brute')
+def message_temps(secondes,minutes,heures,jours,semaines,mois,annees,siecle,vitesse_hackeur)
+    print(f'Ton mot de passe prend {secondes} secondes ou {minutes} minutes ou {heures} heures ou {jours} jours ou {semaines} semaines ou {mois} mois ou {annees} annees ou {siecles} siecles a etre hacke par force brute a une vitesse de {vitesse_hackeur} essais par secondes')
