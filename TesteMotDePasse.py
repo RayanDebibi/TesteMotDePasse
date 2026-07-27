@@ -58,4 +58,6 @@ def convertis_temps(secondes):
     mois = semaines / 4
     annees = mois / 12
     siecles = annees / 100
-    return minutes, heures, jours, semaines, mois, annees, siecledef message_temps(secondes,minutes,heures,jours,semaines,mois,annees,sieclin(f'Ton mot de passe prend {secondes} secondes ou {minutes} minutes ou {heures} heures ou {jours} jours ou {semaines} semaines ou {mois} mois ou {annees} annees ou {siecles} siecles a etre hacke par force brute')
+    return minutes, heures, jours, semaines, mois, annees, siecle
+def message_temps(secondes,minutes,heures,jours,semaines,mois,annees,siecle)
+    print(f'Ton mot de passe prend {secondes} secondes ou {minutes} minutes ou {heures} heures ou {jours} jours ou {semaines} semaines ou {mois} mois ou {annees} annees ou {siecles} siecles a etre hacke par force brute')
