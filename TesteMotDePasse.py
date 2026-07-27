@@ -26,19 +26,19 @@ def calcul_1_etape(mot_de_passe):
     etape_1 = 0
     for lettre_miniscule in lettre_miniscules:
         if lettre_miniscule in mot_de_passe:
-            etape_1 += 26
+            etape_1 += len(lettre_miniscules)
             break
     for lettre_majuscule in lettre_majuscules:
         if lettre_majuscule in mot_de_passe:
-            etape_1 += 26
+            etape_1 += len(lettres_majuscules)
             break
     for chiffre in chiffres:       
         if chiffre in mot_de_passe:
-            etape_1 += 10
+            etape_1 += len(chiffres)
             break
     for symbole in symboles:
         if symbole in mot_de_passe:
-            etape_1 += 32
+            etape_1 += len(symboles)
             break
     return etape_1
 def calcul_longueur(mot_de_passe):
