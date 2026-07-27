@@ -19,11 +19,11 @@ def si_mot_de_passe_simple(mot_de_passe):
             exit()
 def calcul_1_etape(mot_de_passe):
     etape_1 = 0
-    for lettre_miniscule in lettre_miniscules:
+    for lettre_miniscule in lettres_miniscules:
         if lettre_miniscule in mot_de_passe:
-            etape_1 += len(lettre_miniscules)
+            etape_1 += len(lettres_miniscules)
             break
-    for lettre_majuscule in lettre_majuscules:
+    for lettre_majuscule in lettres_majuscules:
         if lettre_majuscule in mot_de_passe:
             etape_1 += len(lettres_majuscules)
             break
