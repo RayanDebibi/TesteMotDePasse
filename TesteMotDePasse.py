@@ -63,5 +63,14 @@ def message_final(siecles):
         print("Ton mot de passe est assez bien mais je te conseille de l'ameliorer:)")
     else: 
         print("Ton mot de passe n'est pas du tout securise, change le tout de suite pour ta securite")
-              
+mot_de_passe = dire_quel_mot_de_passe()
+si_mot_de_passe_existe(mot_de_passe)
+si_mot_de_passe_simple(mot_de_passe)
+etape_1 = calcul_1_etape(mot_de_passe)
+longueur_mot_de_passe = calcul_longueur(mot_de_passe)
+nbr_possibilites = calcul_nombre_possibilites_requises(etape_1, longueur_mot_de_passe)
+secondes = calcul_temps_requis(nbr_possibilites,vitesse_hackeur)
+minutes, heures, jours, semaines, mois, annees, siecles = convertis_temps(secondes)
+message_temps(secondes,minutes,heures,jours,semaines,mois,annees,siecles,vitesse_hackeur)
+message_final(siecles)
     
