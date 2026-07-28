@@ -39,7 +39,6 @@ Ensuite il faut mettre le mot de passe.
 
 - Accents pas pris en compte
 - Le programme plante si trop de caractere (environ 150+ caractères )
-- Le calcul de l'année n'est pas exact (je compte 4 semaines par mois)
 
 ## Message de fin
 
