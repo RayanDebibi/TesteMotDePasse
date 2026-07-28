@@ -14,7 +14,7 @@ Voici aussi le code source JavaScript : https://password-strength-te-vadz.bolt.h
 
 Il faut avoir Python 3
 
-puis le lancer avec : python [TesteMotDePasse.py](http://TesteMotDePasse.py) 
+puis le lancer avec : python TesteMotDePasse.py
 
 Ensuite faut mettre le mot de passe sinon, il regarde quels types de caractères sont utilisés (minuscules, majuscules, chiffres, symboles) pour connaitre la taille de l'alphabet, puis calcule le nombre de combinaisons possibles et divise par 10 milliards d'essais par seconde.
 
