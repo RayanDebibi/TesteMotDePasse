@@ -1,6 +1,5 @@
-etape_1 = 0
 vitesse_hackeur = 10 ** 10
-lettres_miniscules = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
+lettres_minuscules = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
 lettres_majuscules = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
 chiffres = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
 symboles = ["!", "\"", "#", "$", "%", "&", "'", "(", ")", "*", "+", ",", "-", ".", "/", ":", ";", "<", "=", ">", "?", "@", "[", "\\", "]", "^", "_", "`", "{", "|", "}", "~"]
@@ -20,9 +19,9 @@ def si_mot_de_passe_simple(mot_de_passe):
             exit()
 def calcul_1_etape(mot_de_passe):
     etape_1 = 0
-    for lettre_miniscule in lettres_miniscules:
-        if lettre_miniscule in mot_de_passe:
-            etape_1 += len(lettres_miniscules)
+    for lettre_minuscule in lettres_minuscules:
+        if lettre_minuscule in mot_de_passe:
+            etape_1 += len(lettres_minuscules)
             break
     for lettre_majuscule in lettres_majuscules:
         if lettre_majuscule in mot_de_passe:
@@ -51,8 +50,8 @@ def convertis_temps(secondes):
     heures = minutes / 60
     jours = heures / 24
     semaines = jours / 7
-    mois = semaines / 4
-    annees = mois / 12
+    annees = jours / 365.5
+    mois = annees * 12
     siecles = annees / 100
     return minutes, heures, jours, semaines, mois, annees, siecles
 def message_temps(secondes,minutes,heures,jours,semaines,mois,annees,siecles,vitesse_hackeur):
