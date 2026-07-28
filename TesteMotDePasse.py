@@ -12,6 +12,7 @@ def dire_quel_mot_de_passe():
 def si_mot_de_passe_existe(mot_de_passe):
     if len(mot_de_passe) == 0:
         print("Verifie ton mot de passe stp")
+        exit()
 def si_mot_de_passe_simple(mot_de_passe):
     for mot_de_passe_simple in mot_de_passe_simples:
         if mot_de_passe_simple == mot_de_passe:
