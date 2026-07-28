@@ -7,10 +7,12 @@ J'ai cree pour mon tout premier programme un testeur de solidite de mot de passe
 
 Le programme prend comme entree ton mot de passe puis verifie si il continet qqch. Regarde si le mot de passe est dans ceux simples et si c'est le cas il renvoie directement que le mot de passe n'est pas du tout securise et qu'il faut le changer tout de suite.
 J'ai laisse Bolt genere un site web avec mon code phyton, j'ai égallemnet verifie avec une inteligence artificielle (arena.ai, agent mode) si il n'envoyait pas les mots de passe sur serveurs etc, elle m'a répondu que ce n'était pas le cas : https://password-strength-te-vadz.bolt.host
+J'ai egalemment essayer le site sans connexion internet (charger le site avant avec internet) et il marchait.
+Voici aussi le code source JavaScript : https://password-strength-te-vadz.bolt.host/assets/index-BU01N3ND.js pour les connaisseurs.
 
 ### Comment lancer
 
-Il faut avoir Pyhton 3
+Il faut avoir Python 3
 
 puis le lancer avec : python [TesteMotDePasse.py](http://TesteMotDePasse.py) 
 
