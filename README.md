@@ -1,10 +1,12 @@
 # TesteMotDePasse
 
-J'ai cree pour mon tout premier programme un testeur de solidite de mot de passe avec les mots de passe simples ainsi que le calcul de temps necessaire
+J'ai cree pour mon tout premier programme un testeur de solidite de mot de passe avec les mots de passe simples ainsi que le calcul de temps necessaire.
+
 
 ## Comment il marche
 
 Le programme prend comme entree ton mot de passe puis verifie si il continet qqch. Regarde si le mot de passe est dans ceux simples et si c'est le cas il renvoie directement que le mot de passe n'est pas du tout securise et qu'il faut le changer tout de suite.
+J'ai laisse Bolt genere un site web avec mon code phyton, j'ai égallemnet verifie avec une inteligence artificielle (arena.ai, agent mode) si il n'envoyait pas les mots de passe sur serveurs etc, elle m'a répondu que ce n'était pas le cas : https://password-strength-te-vadz.bolt.host
 
 ### Comment lancer
 
@@ -23,12 +25,8 @@ La correction de bugs (exemple s dans lettre(s) et mot(s) que j'oubliais...
 
 ### Amelioration
 
-Interface utilsateur
-
-Accents pas comptes
-
+Accents pas pris comptes
 Programme plante si + 180 caracteres 
-
 Fautes orthographes
 
 ### Message Fin
