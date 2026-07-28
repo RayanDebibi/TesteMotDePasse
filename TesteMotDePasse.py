@@ -72,5 +72,4 @@ nbr_possibilites = calcul_nombre_possibilites_requises(etape_1, longueur_mot_de_
 secondes = calcul_temps_requis(nbr_possibilites,vitesse_hackeur)
 minutes, heures, jours, semaines, mois, annees, siecles = convertis_temps(secondes)
 message_temps(secondes,minutes,heures,jours,semaines,mois,annees,siecles,vitesse_hackeur)
-message_final(siecles)
-    
+message_final(siecles) 
