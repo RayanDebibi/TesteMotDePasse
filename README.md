@@ -29,7 +29,7 @@ La correction de bugs (exemple s dans lettre(s) et mot(s) que j'oubliais...
 
 Accents pas pris comptes
 Programme plante si + 180 caracteres 
-Fautes orthographes
+Fautes orthographes (bientot)
 
 ### Message Fin
 
