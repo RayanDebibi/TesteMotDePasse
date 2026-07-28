@@ -50,7 +50,7 @@ def convertis_temps(secondes):
     heures = minutes / 60
     jours = heures / 24
     semaines = jours / 7
-    annees = jours / 365.5
+    annees = jours / 365.25
     mois = annees * 12
     siecles = annees / 100
     return minutes, heures, jours, semaines, mois, annees, siecles
