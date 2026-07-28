@@ -8,6 +8,8 @@ Le programme prend comme entrée ton mot de passe puis vérifie s'il contient qu
 
 Sinon, il regarde quels types de caractères sont utilisés (minuscules, majuscules, chiffres, symboles) pour connaître la taille de l'alphabet, puis calcule le nombre de combinaisons possibles et divise par 10 milliards d'essais par seconde.
 
+Il vérifie aussi que le mot de passe n'utilise pas trop souvent les mêmes caractères. 
+
 ## Le site web
 
 J'ai laissé Bolt générer un site web avec mon code Python : https://password-strength-te-vadz.bolt.host
