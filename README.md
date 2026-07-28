@@ -38,7 +38,7 @@ Ensuite il faut mettre le mot de passe.
 ## Améliorations
 
 - Accents pas pris en compte
-- Le programme plante si plus de 180 caractères
+- Le programme plante si trop de caractere (environ 150+ caractères )
 - Le calcul de l'année n'est pas exact (je compte 4 semaines par mois)
 
 ## Message de fin
