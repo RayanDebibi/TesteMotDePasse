@@ -4,7 +4,7 @@ J'ai créé pour mon tout premier programme un testeur de solidité de mot de pa
 
 ## Comment il marche
 
-Le programme prend comme entrée ton mot de passe puis vérifie s'il contient quelque chose. Il regarde si le mot de passe est dans ceux simples et si c'est le cas il renvoie directement que le mot de passe n'est pas du tout sécurisé et qu'il faut le changer tout de suite.
+Le programme prend comme entrée ton mot de passe puis vérifie s'il contient quelque chose. Il regarde si le mot de passe est dans ceux simples et égallement dans la liste rockyou.txt et si c'est le cas il renvoie directement que le mot de passe n'est pas du tout sécurisé et qu'il faut le changer tout de suite.
 
 Sinon, il regarde quels types de caractères sont utilisés (minuscules, majuscules, chiffres, symboles) pour connaître la taille de l'alphabet, puis calcule le nombre de combinaisons possibles et divise par 10 milliards d'essais par seconde.
 
