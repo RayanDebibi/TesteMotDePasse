@@ -5,6 +5,8 @@ chiffres = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
 symboles = ["!", "\"", "#", "$", "%", "&", "'", "(", ")", "*", "+", ",", "-", ".", "/", ":", ";", "<", "=", ">", "?", "@", "[", "\\", "]", "^", "_", "`", "{", "|", "}", "~"]
 mot_de_passe_simples = ["123456", "123456789", "000000", "12345678", "111111", "azerty", "azertyuiop", "qsdfgh", "azerty123", "motdepasse", "password", "admin", "soleil", "marseille", "chouchou", "doudou", "loulou", "bonjour", "secret"]
 
+with open("rockyou.txt", "r", encoding="latin-1") as mot_de_passe_nul:
+    mot_de_passe_simples = mot_de_passe_simples + mot_de_passe_nul.read().split()
 
 def dire_quel_mot_de_passe():
     print("Rentre un mot de passe pour le tester")
