@@ -22,7 +22,7 @@ J'ai fait trois vérifications pour être sûr que le site n'envoie pas les mots
 
 ## Comment lancer
 
-Il faut avoir Python 3 et télécharger le fichier rockyou : https://drive.google.com/file/d/1emavX129hVevMpIn-WN7eoJ7nNVuH4k7/view?usp=drive_link
+Il faut avoir Python 3 et télécharger le fichier rockyou : https://drive.usercontent.google.com/download?id=1emavX129hVevMpIn-WN7eoJ7nNVuH4k7&authuser=0
 
 
 Puis le lancer avec :
