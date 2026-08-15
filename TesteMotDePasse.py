@@ -7,7 +7,7 @@ mot_de_passe_simples = ["123456", "123456789", "000000", "12345678", "111111", "
 m_d_p_s = set(mot_de_passe_simples)
 
 with open("rockyou.txt", "r", encoding="latin-1") as mot_de_passe_nul:
-    mot_de_passe_simples = m_d_p_s + set(mot_de_passe_nul.read().split())
+    mot_de_passe_simples = m_d_p_s|set(mot_de_passe_nul.read().split())
 
 def dire_quel_mot_de_passe():
     print("Rentre un mot de passe pour le tester")
