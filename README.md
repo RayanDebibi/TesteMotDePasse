@@ -22,7 +22,7 @@ J'ai fait trois vérifications pour être sûr que le site n'envoie pas les mots
 
 ## Comment lancer
 
-Il faut avoir Python 3 et télécharger le fichier rockyou : https://drive.usercontent.google.com/download?id=1emavX129hVevMpIn-WN7eoJ7nNVuH4k7&authuser=0
+Il faut avoir Python 3 et télécharger le fichier rockyou : https://drive.usercontent.google.com/download?id=1emavX129hVevMpIn-WN7eoJ7nNVuH4k7&authuser=0 ou https://github.com/RayanDebibi/TesteMotDePasse/releases/download/v1/rockyou.txt, le fichier rockyou n'est pas indispensable mais très utile.
 
 
 Puis le lancer avec :
