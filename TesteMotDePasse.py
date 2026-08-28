@@ -26,9 +26,9 @@ def si_mot_de_passe_simple(mot_de_passe):
     if len(mot_de_passe) >= 8 and len(set(mot_de_passe)) < 5:
         print("Ta sécurité est à risque, change tout de suite ton mot de passe")
         exit()
-    if mot_de_passe.lower() in mot_de_passe_simples
-            print("Ta sécurité est à risque, change tout de suite ton mot de passe")
-            exit()
+    if mot_de_passe.lower() in mot_de_passe_simples:
+        print("Ta sécurité est à risque, change tout de suite ton mot de passe")
+        exit()
 
 def calcul_1_etape(mot_de_passe):
     etape_1 = 0
