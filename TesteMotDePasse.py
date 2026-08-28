@@ -6,8 +6,11 @@ symboles = ["!", "\"", "#", "$", "%", "&", "'", "(", ")", "*", "+", ",", "-", ".
 mot_de_passe_simples = ["123456", "123456789", "000000", "12345678", "111111", "azerty", "azertyuiop", "qsdfgh", "azerty123", "motdepasse", "password", "admin", "soleil", "marseille", "chouchou", "doudou", "loulou", "bonjour", "secret"]
 m_d_p_s = set(mot_de_passe_simples)
 
+try:
 with open("rockyou.txt", "r", encoding="latin-1") as mot_de_passe_nul:
     mot_de_passe_simples = m_d_p_s|set(mot_de_passe_nul.read().split())
+except:
+    print("Le fichier Rockyou n'a pas été installé, le programme s'executé sans")
 
 def dire_quel_mot_de_passe():
     print("Rentre un mot de passe pour le tester")
