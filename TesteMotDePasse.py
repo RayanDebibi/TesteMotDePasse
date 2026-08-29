@@ -17,7 +17,7 @@ def dire_quel_mot_de_passe():
     try:
         mot_de_passe = str(input()).strip()
     except:
-        print(f"Tu n'as rien mis, réverifie stp, tu as mis {mot_de_passe}.")
+        print("Tu n'as rien mis, réverifie stp.")
     return mot_de_passe
 
 def si_mot_de_passe_simple(mot_de_passe):
