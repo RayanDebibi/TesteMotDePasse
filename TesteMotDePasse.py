@@ -14,16 +14,11 @@ except:
 
 def dire_quel_mot_de_passe():
     print("Rentre un mot de passe pour le tester")
-    mot_de_passe = str(input())
+    try:
+        mot_de_passe = str(input()).strip()
+    except:
+        print(f"Tu n'as rien mis, réverifie stp, tu as mis {mot_de_passe}.")
     return mot_de_passe
-
-
-def si_mot_de_passe_existe(mot_de_passe):
-    if len(mot_de_passe) == 0:
-        print("Vérifie ton mot de passe s'il te plaît")
-        exit()
-
-
 
 def si_mot_de_passe_simple(mot_de_passe):
     if len(mot_de_passe) >= 8 and len(set(mot_de_passe)) < 5:
