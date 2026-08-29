@@ -89,7 +89,6 @@ def message_final(siecles):
 
 
 mot_de_passe = dire_quel_mot_de_passe()
-si_mot_de_passe_existe(mot_de_passe)
 si_mot_de_passe_simple(mot_de_passe)
 etape_1 = calcul_1_etape(mot_de_passe)
 longueur_mot_de_passe = calcul_longueur(mot_de_passe)
